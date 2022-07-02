@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Comfortaa:wght@500&family=Oranienbaum&family=Oswald:wght@200&family=Philosopher:wght@700&family=Play:wght@700&family=Press+Start+2P&family=Raleway:ital,wght@1,100&family=Stalinist+One&family=Yanone+Kaffeesatz:wght@300&display=swap');
+body{
+    background-color: rgb(220, 221, 202);
+    zoom: 67%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: rgb(168, 168, 168);
+    position: fixed;
+    width: 100%;
+    margin-top: -0.5%;
+}
+
+nav{
+    width: 80%;
+    justify-content:space-between;
+}
+
+nav>a{
+    text-decoration:none;
+    color: black;
+    margin:50px 100px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.pusto{
+    width: 10%;
+}
+
+
+.gen{
+    padding-top: 15%;
+}
+main{
+    margin-left: 10%;
+}
+
+.pusto1{
+    height: 200px;
+}
+
+.gen>h2{
+    margin-bottom: 10%;
+    font-size: 36px;
+}
+
+.gen>p{
+    width: 70%;
+    font-size: 26px;
+    padding-bottom: 2%;
+}
+
+
+.bot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: azure;
+    height: 180px;
+    width: 60%;
+    margin-left: 13%;
+    margin-bottom: 7%;
+    
+}
+
+.bot>h2{
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    
+}
+
+footer{
+    background-color: rgb(9, 9, 54);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer>p{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
